@@ -1,0 +1,33 @@
+---
+export interface Props {
+  categories: string[];
+  categoryColorMap: Record<string, string>;
+}
+
+const { categories, categoryColorMap } = Astro.props;
+---
+
+<div class="mb-8">
+  <h2 class="text-xl font-semibold mb-4">Category filter:</h2>
+  <div class="flex flex-wrap gap-2" id="category-filters">
+    <button
+      class="category-filter bg-blue-500 text-white px-3 py-1 rounded-md filter-active"
+      data-category="all"
+    >
+      All
+    </button>
+    {
+      categories.map((category) => {
+        const colorClass = categoryColorMap[category];
+        return (
+          <button
+            class={`category-filter px-3 py-1 rounded-md hover:opacity-90 ${colorClass}`}
+            data-category={category}
+          >
+            {category}
+          </button>
+        );
+      })
+    }
+  </div>
+</div>
