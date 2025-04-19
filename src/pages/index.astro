@@ -1,0 +1,141 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import toolsData from "../data/tools.json";
+import "../styles/global.css";
+
+// Extraer todas las categorías únicas
+const allCategories = new Set();
+toolsData.forEach((tool) => {
+  tool.categories.forEach((category) => {
+    allCategories.add(category);
+  });
+});
+
+const categories = Array.from(allCategories).sort();
+
+// Definir arrays de colores
+const categoryColors = [
+  "bg-red text-white",
+  "bg-orange text-white",
+  "bg-amber text-black",
+  "bg-yellow text-black",
+  "bg-lime text-black",
+  "bg-green text-white",
+  "bg-teal text-white",
+  "bg-cyan text-black",
+  "bg-sky text-white",
+  "bg-indigo text-white"
+];
+
+const toolColors = [
+  "bg-red-1 border-red",
+  "bg-orange-1 border-orange",
+  "bg-amber-1 border-amber",
+  "bg-yellow-1 border-yellow",
+  "bg-lime-1 border-lime",
+  "bg-green-1 border-green",
+  "bg-teal-1 border-teal", 
+  "bg-cyan-1 border-cyan",
+  "bg-sky-1 border-sky",
+  "bg-indigo-1 border-indigo"
+];
+
+const categoryColorMap = {};
+categories.forEach((category, index) => {
+  const colorIndex = index % categoryColors.length;
+  categoryColorMap[category] = categoryColors[colorIndex];
+});
+---
+
+<Layout>
+  <Header />
+  <main class="container mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold text-center mb-10">
+      Herramientas de Desarrollo
+    </h1>
+
+    <!-- Filtros de categorías -->
+    <div class="mb-8">
+      <h2 class="text-xl font-semibold mb-4">Filtrar por categoría:</h2>
+      <div class="flex flex-wrap gap-2" id="category-filters">
+        <button
+          class="category-filter bg-blue text-white px-3 py-1 rounded-md filter-active"
+          data-category="all"
+        >
+          Todas
+        </button>
+        {
+          categories.map((category) => (
+            <button
+              class={`category-filter px-3 py-1 rounded-md hover:opacity-90 ${categoryColorMap[category]}`}
+              data-category={category}
+            >
+              {category}
+            </button>
+          ))
+        }
+      </div>
+    </div>
+
+    <!-- Grid de herramientas -->
+    <div
+      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
+      id="tools-grid"
+    >
+      {
+        toolsData.map((tool, index) => {
+          const colorIndex = index % toolColors.length;
+          const toolColor = toolColors[colorIndex];
+          
+          return (
+            <div
+              class={`tool-card p-4 rounded-lg shadow-md border-l-4 ${toolColor}`}
+              data-categories={JSON.stringify(tool.categories)}
+            >
+              <h3 class="text-lg font-medium">{tool.name}</h3>
+              <div class="mt-2 flex flex-wrap gap-1">
+                {tool.categories.map((category) => (
+                  <span class={`text-xs px-2 py-1 rounded ${categoryColorMap[category]}`}>
+                    {category}
+                  </span>
+                ))}
+              </div>
+            </div>
+          );
+        })
+      }
+    </div>
+  </main>
+
+  <script>
+    // Lógica de filtrado
+    const categoryFilters = document.querySelectorAll(".category-filter");
+    const toolCards = document.querySelectorAll(".tool-card");
+
+    categoryFilters.forEach((filter) => {
+      filter.addEventListener("click", () => {
+        // Actualizar estado activo de los botones
+        categoryFilters.forEach((btn) =>
+          btn.classList.remove("filter-active")
+        );
+        filter.classList.add("filter-active");
+
+        const selectedCategory = filter.getAttribute("data-category");
+
+        toolCards.forEach((card) => {
+          const categories = JSON.parse(card.getAttribute("data-categories"));
+
+          if (
+            selectedCategory === "all" ||
+            categories.includes(selectedCategory)
+          ) {
+            card.classList.remove("hidden");
+          } else {
+            card.classList.add("hidden");
+          }
+        });
+      });
+    });
+  </script>
+</Layout>

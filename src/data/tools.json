@@ -1,0 +1,418 @@
+[
+  {
+    "name": "Drupal",
+    "categories": ["CMS"]
+  },
+  {
+    "name": "Wordpress",
+    "categories": ["CMS"]
+  },
+  {
+    "name": "Joomla",
+    "categories": ["CMS"]
+  },
+  {
+    "name": "Symfony",
+    "categories": ["Frameworks", "Backend"]
+  },
+  {
+    "name": "Laravel",
+    "categories": ["Frameworks", "Backend"]
+  },
+  {
+    "name": "NodeJS",
+    "categories": ["Frameworks", "Backend"]
+  },
+  {
+    "name": "AstroJS",
+    "categories": ["Frameworks", "Backend"]
+  },
+  {
+    "name": "Django",
+    "categories": ["Frameworks", "Backend"]
+  },
+  {
+    "name": "FastAPI",
+    "categories": ["Frameworks", "Backend"]
+  },
+  {
+    "name": "Flask",
+    "categories": ["Frameworks", "Backend"]
+  },
+  {
+    "name": "LangChain",
+    "categories": ["Frameworks", "Backend"]
+  },
+  {
+    "name": "LangGraph",
+    "categories": ["Frameworks", "Backend"]
+  },
+  {
+    "name": "ReactJS",
+    "categories": ["Frameworks", "Frontend JS"]
+  },
+  {
+    "name": "Angular",
+    "categories": ["Frameworks", "Frontend JS"]
+  },
+  {
+    "name": "Vue",
+    "categories": ["Frameworks", "Frontend JS"]
+  },
+  {
+    "name": "Preact",
+    "categories": ["Frameworks", "Frontend JS"]
+  },
+  {
+    "name": "Svelte",
+    "categories": ["Frameworks", "Frontend JS"]
+  },
+  {
+    "name": "Bootstrap",
+    "categories": ["Frameworks", "CSS"]
+  },
+  {
+    "name": "Tailwind",
+    "categories": ["Frameworks", "CSS"]
+  },
+  {
+    "name": "DaisyUI",
+    "categories": ["Frameworks", "CSS", "Tailwind"]
+  },
+  {
+    "name": "Starwind",
+    "categories": ["Frameworks", "CSS", "Tailwind"]
+  },
+  {
+    "name": "Flowbite",
+    "categories": ["Frameworks", "CSS", "Tailwind"]
+  },
+  {
+    "name": "HuggingFace",
+    "categories": ["AI Tools"]
+  },
+  {
+    "name": "TabbyAI",
+    "categories": ["AI Tools"]
+  },
+  {
+    "name": "RagFlow",
+    "categories": ["AI Tools"]
+  },
+  {
+    "name": "NotebookLm",
+    "categories": ["AI Tools"]
+  },
+  {
+    "name": "ChatGPT",
+    "categories": ["AI Tools"]
+  },
+  {
+    "name": "Google Gemini",
+    "categories": ["AI Tools"]
+  },
+  {
+    "name": "Claude",
+    "categories": ["AI Tools"]
+  },
+  {
+    "name": "Perplexity",
+    "categories": ["AI Tools"]
+  },
+  {
+    "name": "Apache Solr",
+    "categories": ["Search engines"]
+  },
+  {
+    "name": "Elastic Search",
+    "categories": ["Search engines"]
+  },
+  {
+    "name": "Algolia",
+    "categories": ["Search engines"]
+  },
+  {
+    "name": "TypeSense",
+    "categories": ["Search engines"]
+  },
+  {
+    "name": "Akamai",
+    "categories": ["CDN"]
+  },
+  {
+    "name": "CloudFront",
+    "categories": ["CDN"]
+  },
+  {
+    "name": "CloudFlare",
+    "categories": ["CDN"]
+  },
+  {
+    "name": "Bunny",
+    "categories": ["CDN"]
+  },
+  {
+    "name": "PostgreSQL",
+    "categories": ["Database", "SQL"]
+  },
+  {
+    "name": "MariaDb/Mysql",
+    "categories": ["Database", "SQL"]
+  },
+  {
+    "name": "Percona",
+    "categories": ["Database", "SQL"]
+  },
+  {
+    "name": "Timescale",
+    "categories": ["Database", "SQL"]
+  },
+  {
+    "name": "Redis",
+    "categories": ["Database", "NoSQL"]
+  },
+  {
+    "name": "MongoDB",
+    "categories": ["Database", "NoSQL"]
+  },
+  {
+    "name": "KeyDB",
+    "categories": ["Database", "NoSQL"]
+  },
+  {
+    "name": "Chroma",
+    "categories": ["Database", "AI"]
+  },
+  {
+    "name": "Memcache",
+    "categories": ["Cache systems"]
+  },
+  {
+    "name": "RabbitMq",
+    "categories": ["Message brokers"]
+  },
+  {
+    "name": "Amazon SQS",
+    "categories": ["Message brokers"]
+  },
+  {
+    "name": "Apache Kafka",
+    "categories": ["Message brokers"]
+  },
+  {
+    "name": "AWS",
+    "categories": ["Cloud Hosting"]
+  },
+  {
+    "name": "Google Cloud",
+    "categories": ["Cloud Hosting"]
+  },
+  {
+    "name": "Azure",
+    "categories": ["Cloud Hosting"]
+  },
+  {
+    "name": "Scaleway",
+    "categories": ["Cloud Hosting"]
+  },
+  {
+    "name": "DataDog",
+    "categories": ["Profilers"]
+  },
+  {
+    "name": "New Relic",
+    "categories": ["Profilers"]
+  },
+  {
+    "name": "Blackfire",
+    "categories": ["Profilers"]
+  },
+  {
+    "name": "Disqus",
+    "categories": ["External managers", "Comments"]
+  },
+  {
+    "name": "Auth0",
+    "categories": ["External managers", "User providers"]
+  },
+  {
+    "name": "SimpleSAML",
+    "categories": ["External managers", "User providers"]
+  },
+  {
+    "name": "Addthis",
+    "categories": ["External managers", "Social share"]
+  },
+  {
+    "name": "Mercure",
+    "categories": ["Notification system"]
+  },
+  {
+    "name": "Docker",
+    "categories": ["Local environment tools"]
+  },
+  {
+    "name": "ddev",
+    "categories": ["Local environment tools"]
+  },
+  {
+    "name": "Lando",
+    "categories": ["Local environment tools"]
+  },
+  {
+    "name": "Conda",
+    "categories": ["Local environment tools"]
+  },
+  {
+    "name": "Grumphp",
+    "categories": ["Code cuality tools"]
+  },
+  {
+    "name": "PhpStan",
+    "categories": ["Code cuality tools"]
+  },
+  {
+    "name": "PhpCS",
+    "categories": ["Code cuality tools"]
+  },
+  {
+    "name": "Psalm",
+    "categories": ["Code cuality tools"]
+  },
+  {
+    "name": "Php roadrunner",
+    "categories": ["Code cuality tools"]
+  },
+  {
+    "name": "Sonar cube",
+    "categories": ["Code cuality tools"]
+  },
+  {
+    "name": "PhpUnit",
+    "categories": ["Testing tools"]
+  },
+  {
+    "name": "Php infection",
+    "categories": ["Testing tools"]
+  },
+  {
+    "name": "Behat/Cucumber",
+    "categories": ["Testing tools"]
+  },
+  {
+    "name": "Cypress",
+    "categories": ["Testing tools"]
+  },
+  {
+    "name": "Playwright",
+    "categories": ["Testing tools"]
+  },
+  {
+    "name": "Github",
+    "categories": ["Code repositories"]
+  },
+  {
+    "name": "Bitbucket",
+    "categories": ["Code repositories"]
+  },
+  {
+    "name": "Gitlab",
+    "categories": ["Code repositories"]
+  },
+  {
+    "name": "Read the docks",
+    "categories": ["Documentation tools"]
+  },
+  {
+    "name": "MkDocs",
+    "categories": ["Documentation tools"]
+  },
+  {
+    "name": "Slack",
+    "categories": ["Chat/Meeting"]
+  },
+  {
+    "name": "Mattermost",
+    "categories": ["Chat/Meeting"]
+  },
+  {
+    "name": "Microsoft Teams",
+    "categories": ["Chat/Meeting"]
+  },
+  {
+    "name": "Google Chat/Meet",
+    "categories": ["Chat/Meeting"]
+  },
+  {
+    "name": "1password",
+    "categories": ["Password managers"]
+  },
+  {
+    "name": "Bitwarden",
+    "categories": ["Password managers"]
+  },
+  {
+    "name": "VaultWarden",
+    "categories": ["Password managers"]
+  },
+  {
+    "name": "Notion",
+    "categories": ["Notepad systems"]
+  },
+  {
+    "name": "Obsidian",
+    "categories": ["Notepad systems"]
+  },
+  {
+    "name": "AppFlowy",
+    "categories": ["Notepad systems"]
+  },
+  {
+    "name": "Dokploy",
+    "categories": ["Selfhosting"]
+  },
+  {
+    "name": "sqlplayground.tech",
+    "categories": ["Websites"]
+  },
+  {
+    "name": "quickref.me",
+    "categories": ["Websites"]
+  },
+  {
+    "name": "Jetbrains IDE's",
+    "categories": ["Code editors"]
+  },
+  {
+    "name": "Visual Studio Code",
+    "categories": ["Code editors"]
+  },
+  {
+    "name": "Cursor",
+    "categories": ["Code editors"]
+  },
+  {
+    "name": "Windsurf",
+    "categories": ["Code editors"]
+  },
+  {
+    "name": "LocalStack",
+    "categories": ["Others"]
+  },
+  {
+    "name": "Vimeo",
+    "categories": ["Others"]
+  },
+  {
+    "name": "MailChimp",
+    "categories": ["Others"]
+  },
+  {
+    "name": "Tugboat",
+    "categories": ["Others"]
+  },
+  {
+    "name": "Qaack",
+    "categories": ["Others"]
+  }
+]

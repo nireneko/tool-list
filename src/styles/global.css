@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+    themes: light --default, dark --prefersdark, forest, retro;
+}
+
+.filter-active {
+    @apply ring-2 ring-white ring-offset-2;
+}
