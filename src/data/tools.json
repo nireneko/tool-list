@@ -1,418 +1,522 @@
 [
   {
     "name": "Drupal",
-    "categories": ["CMS"]
+    "categories": ["CMS"],
+    "description": "Drupal is a free and open-source web content management framework written in PHP and distributed under the GNU General Public License."
   },
   {
     "name": "Wordpress",
-    "categories": ["CMS"]
+    "categories": ["CMS"],
+    "description": "WordPress is a free and open-source content management system written in PHP and paired with a MySQL or MariaDB database."
   },
   {
     "name": "Joomla",
-    "categories": ["CMS"]
+    "categories": ["CMS"],
+    "description": "Joomla is a free and open-source content management system for publishing web content."
   },
   {
     "name": "Symfony",
-    "categories": ["Frameworks", "Backend"]
+    "categories": ["Frameworks", "Backend"],
+    "description": "Symfony is a PHP framework for web applications and a set of reusable PHP components/libraries."
   },
   {
     "name": "Laravel",
-    "categories": ["Frameworks", "Backend"]
+    "categories": ["Frameworks", "Backend"],
+    "description": "Laravel is a web application framework with expressive, elegant syntax."
   },
   {
     "name": "NodeJS",
-    "categories": ["Frameworks", "Backend"]
+    "categories": ["Frameworks", "Backend"],
+    "description": "Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside a web browser."
   },
   {
     "name": "AstroJS",
-    "categories": ["Frameworks", "Backend"]
+    "categories": ["Frameworks", "Backend"],
+    "description": "Astro is a static site generator that allows you to build fast websites using your favorite JavaScript framework."
   },
   {
     "name": "Django",
-    "categories": ["Frameworks", "Backend"]
+    "categories": ["Frameworks", "Backend"],
+    "description": "Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design."
   },
   {
     "name": "FastAPI",
-    "categories": ["Frameworks", "Backend"]
+    "categories": ["Frameworks", "Backend"],
+    "description": "FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints."
   },
   {
     "name": "Flask",
-    "categories": ["Frameworks", "Backend"]
+    "categories": ["Frameworks", "Backend"],
+    "description": "Flask is a lightweight WSGI web application framework in Python."
   },
   {
     "name": "LangChain",
-    "categories": ["Frameworks", "Backend"]
+    "categories": ["Frameworks", "Backend"],
+    "description": "LangChain is a framework for developing applications powered by language models."
   },
   {
     "name": "LangGraph",
-    "categories": ["Frameworks", "Backend"]
+    "categories": ["Frameworks", "Backend"],
+    "description": "LangGraph is a framework for building applications powered by language models."
   },
   {
     "name": "ReactJS",
-    "categories": ["Frameworks", "Frontend JS"]
+    "categories": ["Frameworks", "Frontend JS"],
+    "description": "React is a JavaScript library for building user interfaces."
   },
   {
     "name": "Angular",
-    "categories": ["Frameworks", "Frontend JS"]
+    "categories": ["Frameworks", "Frontend JS"],
+    "description": "Angular is a platform for building mobile and desktop web applications."
   },
   {
     "name": "Vue",
-    "categories": ["Frameworks", "Frontend JS"]
+    "categories": ["Frameworks", "Frontend JS"],
+    "description": "Vue.js is an open-source model-view-viewmodel front end JavaScript framework for building user interfaces and single-page applications."
   },
   {
     "name": "Preact",
-    "categories": ["Frameworks", "Frontend JS"]
+    "categories": ["Frameworks", "Frontend JS"],
+    "description": "Preact is a fast 3kB alternative to React with the same modern API."
   },
   {
     "name": "Svelte",
-    "categories": ["Frameworks", "Frontend JS"]
+    "categories": ["Frameworks", "Frontend JS"],
+    "description": "Svelte is a free and open-source front-end JavaScript framework for building user interfaces."
   },
   {
     "name": "Bootstrap",
-    "categories": ["Frameworks", "CSS"]
+    "categories": ["Frameworks", "CSS"],
+    "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development."
   },
   {
     "name": "Tailwind",
-    "categories": ["Frameworks", "CSS"]
+    "categories": ["Frameworks", "CSS"],
+    "description": "Tailwind CSS is a utility-first CSS framework for creating custom designs without having to leave your HTML."
   },
   {
     "name": "DaisyUI",
-    "categories": ["Frameworks", "CSS", "Tailwind"]
+    "categories": ["Frameworks", "CSS", "Tailwind"],
+    "description": "DaisyUI is a plugin for Tailwind CSS that adds a set of pre-designed components."
   },
   {
     "name": "Starwind",
-    "categories": ["Frameworks", "CSS", "Tailwind"]
+    "categories": ["Frameworks", "CSS", "Tailwind"],
+    "description": "Starwind is a Tailwind CSS component library that provides a set of pre-designed components."
   },
   {
     "name": "Flowbite",
-    "categories": ["Frameworks", "CSS", "Tailwind"]
+    "categories": ["Frameworks", "CSS", "Tailwind"],
+    "description": "Flowbite is a library of UI components built with Tailwind CSS."
   },
   {
     "name": "HuggingFace",
-    "categories": ["AI Tools"]
+    "categories": ["AI Tools"],
+    "description": "Hugging Face is a company specializing in Natural Language Processing (NLP) and AI."
   },
   {
     "name": "TabbyAI",
-    "categories": ["AI Tools"]
+    "categories": ["AI Tools"],
+    "description": "TabbyAI is a platform for building and deploying AI models."
   },
   {
     "name": "RagFlow",
-    "categories": ["AI Tools"]
+    "categories": ["AI Tools"],
+    "description": "RagFlow is a platform for building and deploying AI models."
   },
   {
     "name": "NotebookLm",
-    "categories": ["AI Tools"]
+    "categories": ["AI Tools"],
+    "description": "NotebookLm is a platform for building and deploying AI models."
   },
   {
     "name": "ChatGPT",
-    "categories": ["AI Tools"]
+    "categories": ["AI Tools"],
+    "description": "ChatGPT is a conversational AI model developed by OpenAI."
   },
   {
     "name": "Google Gemini",
-    "categories": ["AI Tools"]
+    "categories": ["AI Tools"],
+    "description": "Google Gemini is a conversational AI model developed by Google."
   },
   {
     "name": "Claude",
-    "categories": ["AI Tools"]
+    "categories": ["AI Tools"],
+    "description": "Claude is a conversational AI model developed by Anthropic."
   },
   {
     "name": "Perplexity",
-    "categories": ["AI Tools"]
+    "categories": ["AI Tools"],
+    "description": "Perplexity is a conversational AI model developed by Perplexity AI."
   },
   {
     "name": "Apache Solr",
-    "categories": ["Search engines"]
+    "categories": ["Search engines"],
+    "description": "Apache Solr is an open-source search platform built on Apache Lucene."
   },
   {
     "name": "Elastic Search",
-    "categories": ["Search engines"]
+    "categories": ["Search engines"],
+    "description": "Elasticsearch is a distributed, RESTful search and analytics engine capable of solving a growing number of use cases."
   },
   {
     "name": "Algolia",
-    "categories": ["Search engines"]
+    "categories": ["Search engines"],
+    "description": "Algolia is a hosted search engine capable of delivering real-time results from the first keystroke."
   },
   {
     "name": "TypeSense",
-    "categories": ["Search engines"]
+    "categories": ["Search engines"],
+    "description": "Typesense is an open-source, typo-tolerant search engine optimized for instant and relevant search results."
   },
   {
     "name": "Akamai",
-    "categories": ["CDN"]
+    "categories": ["CDN"],
+    "description": "Akamai is a content delivery network (CDN) and cloud service provider."
   },
   {
     "name": "CloudFront",
-    "categories": ["CDN"]
+    "categories": ["CDN"],
+    "description": "Amazon CloudFront is a fast content delivery network (CDN) service."
   },
   {
     "name": "CloudFlare",
-    "categories": ["CDN"]
+    "categories": ["CDN"],
+    "description": "Cloudflare is a web performance and security company that provides content delivery network services."
   },
   {
     "name": "Bunny",
-    "categories": ["CDN"]
+    "categories": ["CDN"],
+    "description": "BunnyCDN is a content delivery network (CDN) that provides fast and reliable content delivery."
   },
   {
     "name": "PostgreSQL",
-    "categories": ["Database", "SQL"]
+    "categories": ["Database", "SQL"],
+    "description": "PostgreSQL is a powerful, open source object-relational database system."
   },
   {
     "name": "MariaDb/Mysql",
-    "categories": ["Database", "SQL"]
+    "categories": ["Database", "SQL"],
+    "description": "MariaDb/Mysql is a popular open-source relational database management system."
   },
   {
     "name": "Percona",
-    "categories": ["Database", "SQL"]
+    "categories": ["Database", "SQL"],
+    "description": "Percona is a company that provides open-source database software and services."
   },
   {
     "name": "Timescale",
-    "categories": ["Database", "SQL"]
+    "categories": ["Database", "SQL"],
+    "description": "Timescale is a time-series database built on PostgreSQL."
   },
   {
     "name": "Redis",
-    "categories": ["Database", "NoSQL"]
+    "categories": ["Database", "NoSQL"],
+    "description": "Redis is an open-source, in-memory data structure store, used as a database, cache, and message broker."
   },
   {
     "name": "MongoDB",
-    "categories": ["Database", "NoSQL"]
+    "categories": ["Database", "NoSQL"],
+    "description": "MongoDB is a source-available cross-platform document-oriented database program."
   },
   {
     "name": "KeyDB",
-    "categories": ["Database", "NoSQL"]
+    "categories": ["Database", "NoSQL"],
+    "description": "KeyDB is a high-performance fork of Redis that adds support for multi-threading."
   },
   {
     "name": "Chroma",
-    "categories": ["Database", "AI"]
+    "categories": ["Database", "AI"],
+    "description": "Chroma is a vector database for AI applications."
   },
   {
     "name": "Memcache",
-    "categories": ["Cache systems"]
+    "categories": ["Cache systems"],
+    "description": "Memcached is a distributed memory object caching system."
   },
   {
     "name": "RabbitMq",
-    "categories": ["Message brokers"]
+    "categories": ["Message brokers"],
+    "description": "RabbitMQ is an open-source message broker software that originally implemented the Advanced Message Queuing Protocol (AMQP)."
   },
   {
     "name": "Amazon SQS",
-    "categories": ["Message brokers"]
+    "categories": ["Message brokers"],
+    "description": "Amazon SQS is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications."
   },
   {
     "name": "Apache Kafka",
-    "categories": ["Message brokers"]
+    "categories": ["Message brokers"],
+    "description": "Apache Kafka is an open-source distributed event streaming platform capable of handling trillions of events a day."
   },
   {
     "name": "AWS",
-    "categories": ["Cloud Hosting"]
+    "categories": ["Cloud Hosting"],
+    "description": "Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments."
   },
   {
     "name": "Google Cloud",
-    "categories": ["Cloud Hosting"]
+    "categories": ["Cloud Hosting"],
+    "description": "Google Cloud Platform (GCP) is a suite of cloud computing services that runs on the same infrastructure that Google uses internally."
   },
   {
     "name": "Azure",
-    "categories": ["Cloud Hosting"]
+    "categories": ["Cloud Hosting"],
+    "description": "Microsoft Azure is a cloud computing service created by Microsoft for building, testing, deploying, and managing applications and services."
   },
   {
     "name": "Scaleway",
-    "categories": ["Cloud Hosting"]
+    "categories": ["Cloud Hosting"],
+    "description": "Scaleway is a French cloud provider offering a range of services including compute, storage, and networking."
   },
   {
     "name": "DataDog",
-    "categories": ["Profilers"]
+    "categories": ["Profilers"],
+    "description": "DataDog is a monitoring and analytics platform for large-scale applications, providing observability of systems and infrastructure."
   },
   {
     "name": "New Relic",
-    "categories": ["Profilers"]
+    "categories": ["Profilers"],
+    "description": "New Relic is a software analytics platform that provides deep performance analytics for every part of your software environment."
   },
   {
     "name": "Blackfire",
-    "categories": ["Profilers"]
+    "categories": ["Profilers"],
+    "description": "Blackfire is a performance testing and profiling tool for PHP applications that helps identify performance bottlenecks."
   },
   {
     "name": "Disqus",
-    "categories": ["External managers", "Comments"]
+    "categories": ["External managers", "Comments"],
+    "description": "Disqus is a networked community platform that provides a commenting system for websites and blogs."
   },
   {
     "name": "Auth0",
-    "categories": ["External managers", "User providers"]
+    "categories": ["External managers", "User providers"],
+    "description": "Auth0 is an identity platform that provides authentication and authorization services for web, mobile, and legacy applications."
   },
   {
     "name": "SimpleSAML",
-    "categories": ["External managers", "User providers"]
+    "categories": ["External managers", "User providers"],
+    "description": "SimpleSAMLphp is an open-source implementation of SAML 2.0 authentication protocol, used for identity federation."
   },
   {
     "name": "Addthis",
-    "categories": ["External managers", "Social share"]
+    "categories": ["External managers", "Social share"],
+    "description": "AddThis is a social bookmarking service that can be integrated into a website with the use of a web widget."
   },
   {
     "name": "Mercure",
-    "categories": ["Notification system"]
+    "categories": ["Notification system"],
+    "description": "Mercure is a protocol allowing for pushing updates to web browsers and other HTTP clients in a fast, reliable and battery-efficient way."
   },
   {
     "name": "Docker",
-    "categories": ["Local environment tools"]
+    "categories": ["Local environment tools"],
+    "description": "Docker is a platform that uses OS-level virtualization to deliver software in packages called containers."
   },
   {
     "name": "ddev",
-    "categories": ["Local environment tools"]
+    "categories": ["Local environment tools"],
+    "description": "DDEV is a local development environment tool focused on making it easy to get started with PHP projects (especially Drupal and WordPress)."
   },
   {
     "name": "Lando",
-    "categories": ["Local environment tools"]
+    "categories": ["Local environment tools"],
+    "description": "Lando is a free, open source, cross-platform local development environment tool built on Docker container technology."
   },
   {
     "name": "Conda",
-    "categories": ["Local environment tools"]
+    "categories": ["Local environment tools"],
+    "description": "Conda is an open-source package management and environment management system that runs on multiple platforms."
   },
   {
     "name": "Grumphp",
-    "categories": ["Code cuality tools"]
+    "categories": ["Code cuality tools"],
+    "description": "GrumPHP is a PHP code quality tool that ensures your commits meet your team's code standards."
   },
   {
     "name": "PhpStan",
-    "categories": ["Code cuality tools"]
+    "categories": ["Code cuality tools"],
+    "description": "PHPStan is a static analysis tool that detects code errors and bugs without running the code."
   },
   {
     "name": "PhpCS",
-    "categories": ["Code cuality tools"]
+    "categories": ["Code cuality tools"],
+    "description": "PHP_CodeSniffer is a set of PHP scripts that tokenizes and detects violations of coding standards."
   },
   {
     "name": "Psalm",
-    "categories": ["Code cuality tools"]
+    "categories": ["Code cuality tools"],
+    "description": "Psalm is a static analysis tool for finding errors in PHP applications, created by Vimeo."
   },
   {
     "name": "Php roadrunner",
-    "categories": ["Code cuality tools"]
+    "categories": ["Code cuality tools"],
+    "description": "PHP RoadRunner is a high-performance PHP application server, load balancer, and process manager."
   },
   {
     "name": "Sonar cube",
-    "categories": ["Code cuality tools"]
+    "categories": ["Code cuality tools"],
+    "description": "SonarQube is an open-source platform for continuous inspection of code quality to perform automatic reviews of code."
   },
   {
     "name": "PhpUnit",
-    "categories": ["Testing tools"]
+    "categories": ["Testing tools"],
+    "description": "PHPUnit is a programmer-oriented testing framework for PHP that provides an elegant way to write and run tests."
   },
   {
     "name": "Php infection",
-    "categories": ["Testing tools"]
+    "categories": ["Testing tools"],
+    "description": "PHP Infection is a mutation testing framework for PHP, used to evaluate the quality of your test suite."
   },
   {
     "name": "Behat/Cucumber",
-    "categories": ["Testing tools"]
+    "categories": ["Testing tools"],
+    "description": "Behat and Cucumber are behavior-driven development (BDD) frameworks that let you describe software's behavior in plain text."
   },
   {
     "name": "Cypress",
-    "categories": ["Testing tools"]
+    "categories": ["Testing tools"],
+    "description": "Cypress is a JavaScript-based end-to-end testing framework that makes it easy to set up, write, run and debug tests."
   },
   {
     "name": "Playwright",
-    "categories": ["Testing tools"]
+    "categories": ["Testing tools"],
+    "description": "Playwright is a Microsoft-maintained automation library for browser testing that enables reliable end-to-end testing for modern web apps."
   },
   {
     "name": "Github",
-    "categories": ["Code repositories"]
+    "categories": ["Code repositories"],
+    "description": "GitHub is a web-based hosting service for version control using Git, offering all of the distributed version control and source code management functionality."
   },
   {
     "name": "Bitbucket",
-    "categories": ["Code repositories"]
+    "categories": ["Code repositories"],
+    "description": "Bitbucket is a Git-based code hosting and collaboration tool that integrates with Jira and other Atlassian products."
   },
   {
     "name": "Gitlab",
-    "categories": ["Code repositories"]
+    "categories": ["Code repositories"],
+    "description": "GitLab is a web-based DevOps lifecycle tool that provides a Git repository manager with wiki, issue-tracking and CI/CD pipeline features."
   },
   {
     "name": "Read the docks",
-    "categories": ["Documentation tools"]
+    "categories": ["Documentation tools"],
+    "description": "Read the Docs is a free documentation hosting platform that builds, versions, and hosts documentation automatically."
   },
   {
     "name": "MkDocs",
-    "categories": ["Documentation tools"]
+    "categories": ["Documentation tools"],
+    "description": "MkDocs is a fast, simple static site generator geared towards building project documentation from Markdown files."
   },
   {
     "name": "Slack",
-    "categories": ["Chat/Meeting"]
+    "categories": ["Chat/Meeting"],
+    "description": "Slack is a business communication platform offering many IRC-style features, including persistent chat rooms, private groups, and direct messaging."
   },
   {
     "name": "Mattermost",
-    "categories": ["Chat/Meeting"]
+    "categories": ["Chat/Meeting"],
+    "description": "Mattermost is an open-source, self-hostable online chat service with file sharing, search, and integrations."
   },
   {
     "name": "Microsoft Teams",
-    "categories": ["Chat/Meeting"]
+    "categories": ["Chat/Meeting"],
+    "description": "Microsoft Teams is a collaboration platform that combines workplace chat, video meetings, file storage, and application integration."
   },
   {
     "name": "Google Chat/Meet",
-    "categories": ["Chat/Meeting"]
+    "categories": ["Chat/Meeting"],
+    "description": "Google Chat and Meet are communication tools that provide messaging, video conferencing, and collaboration features."
   },
   {
     "name": "1password",
-    "categories": ["Password managers"]
+    "categories": ["Password managers"],
+    "description": "1Password is a password manager that securely stores passwords and other sensitive information using strong encryption."
   },
   {
     "name": "Bitwarden",
-    "categories": ["Password managers"]
+    "categories": ["Password managers"],
+    "description": "Bitwarden is an open-source password management service that stores sensitive information in an encrypted vault."
   },
   {
     "name": "VaultWarden",
-    "categories": ["Password managers"]
+    "categories": ["Password managers"],
+    "description": "VaultWarden is an unofficial Bitwarden server implementation written in Rust, formerly known as bitwarden_rs."
   },
   {
     "name": "Notion",
-    "categories": ["Notepad systems"]
+    "categories": ["Notepad systems"],
+    "description": "Notion is an all-in-one workspace for notes, tasks, wikis, and databases, combining the functionality of multiple apps."
   },
   {
     "name": "Obsidian",
-    "categories": ["Notepad systems"]
+    "categories": ["Notepad systems"],
+    "description": "Obsidian is a powerful knowledge base that works on top of a local folder of plain text Markdown files."
   },
   {
     "name": "AppFlowy",
-    "categories": ["Notepad systems"]
+    "categories": ["Notepad systems"],
+    "description": "AppFlowy is an open-source alternative to Notion, with a focus on privacy and data security."
   },
   {
     "name": "Dokploy",
-    "categories": ["Selfhosting"]
+    "categories": ["Selfhosting"],
+    "description": "Dokploy is a deployment and hosting solution designed for simplifying application deployment and management."
   },
   {
     "name": "sqlplayground.tech",
-    "categories": ["Websites"]
+    "categories": ["Websites"],
+    "description": "SQLPlayground.tech is a website that provides an interactive environment for learning and practicing SQL queries."
   },
   {
     "name": "quickref.me",
-    "categories": ["Websites"]
+    "categories": ["Websites"],
+    "description": "QuickRef.me is a collection of cheatsheets and quick references for developers across various technologies."
   },
   {
     "name": "Jetbrains IDE's",
-    "categories": ["Code editors"]
+    "categories": ["Code editors"],
+    "description": "JetBrains IDEs are a collection of integrated development environments for various programming languages, including IntelliJ IDEA, PhpStorm, and PyCharm."
   },
   {
     "name": "Visual Studio Code",
-    "categories": ["Code editors"]
+    "categories": ["Code editors"],
+    "description": "Visual Studio Code is a free, open-source code editor developed by Microsoft with built-in debugging support, embedded Git control, and extensions."
   },
   {
     "name": "Cursor",
-    "categories": ["Code editors"]
+    "categories": ["Code editors"],
+    "description": "Cursor is an AI-first code editor designed to help developers write, understand, and improve code with AI assistance."
   },
   {
     "name": "Windsurf",
-    "categories": ["Code editors"]
+    "categories": ["Code editors"],
+    "description": "Windsurf is a modern code editor focused on providing a clean interface and efficient workflow for developers."
   },
   {
     "name": "LocalStack",
-    "categories": ["Others"]
+    "categories": ["Others"],
+    "description": "LocalStack is a cloud service emulator that runs in a single container on your local machine, emulating AWS services for local development and testing."
   },
   {
     "name": "Vimeo",
-    "categories": ["Others"]
+    "categories": ["Others"],
+    "description": "Vimeo is a video hosting, sharing, and services platform that provides high-quality video streaming with privacy features."
   },
   {
     "name": "MailChimp",
-    "categories": ["Others"]
+    "categories": ["Others"],
+    "description": "MailChimp is an email marketing automation platform that helps businesses create, send, and analyze email campaigns."
   },
   {
     "name": "Tugboat",
-    "categories": ["Others"]
+    "categories": ["Others"],
+    "description": "Tugboat is a preview environment tool that creates on-demand testing environments for web development projects."
   },
   {
     "name": "Qaack",
-    "categories": ["Others"]
+    "categories": ["Others"],
+    "description": "Qaack is a collaborative development tool focused on enhancing team productivity and code quality."
   }
 ]
