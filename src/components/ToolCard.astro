@@ -6,6 +6,7 @@ export interface Props {
     name: string;
     categories: string[];
     description: string;
+    link: string;
   };
   index: number;
   categoryColorMap: Record<string, string>;
@@ -24,6 +25,12 @@ const toolColor = toolColors[colorIndex];
   <div class="tooltip-content">
     {tool.description}
   </div>
+  <a
+    href={tool.link}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="text-blue-500 hover:underline">Oficial page</a
+  >
   <div class="mt-2 flex flex-wrap gap-1">
     {
       tool.categories.map((category) => {
