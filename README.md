@@ -1,48 +1,99 @@
-# Astro Starter Kit: Basics
+# Development Tools List
 
-```sh
-npm create astro@latest -- --template basics
-```
+A comprehensive catalog of development and team tools built with Astro, Tailwind CSS, and DaisyUI. This project displays a searchable, filterable grid of development tools organized by categories.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## 🚀 Project Overview
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+This project provides an interactive web interface for browsing various development tools across multiple categories. Features include:
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+- Category-based filtering
+- Tool cards with descriptions
+- Dark/light theme toggle
+- Responsive design
+- Dockerized deployment
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
+## 📂 Project Structure
 
 ```text
 /
-├── public/
+├── public/               # Static assets
 │   └── favicon.svg
 ├── src/
-│   ├── layouts/
+│   ├── assets/           # Project assets
+│   ├── components/       # UI components
+│   │   ├── CategoryFilters.astro
+│   │   ├── Header.astro
+│   │   ├── Navigation.astro
+│   │   ├── ThemeIcon.astro
+│   │   ├── ToolCard.astro
+│   │   └── ToolsGrid.astro
+│   ├── data/             # Data files
+│   │   └── tools.json    # Tool definitions
+│   ├── layouts/          # Layout templates
 │   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+│   ├── pages/            # Routes
+│   │   └── index.astro
+│   ├── scripts/          # Client-side scripts
+│   │   └── categoryFilter.js
+│   ├── styles/           # CSS styles
+│   └── utils/            # Utility functions
+│       └── colorUtils.js
+├── astro.config.mjs      # Astro configuration
+├── docker-compose.yml    # Docker Compose configuration
+├── Dockerfile            # Docker configuration
+├── nginx.conf            # Nginx configuration
+├── package.json          # Project dependencies
+└── tsconfig.json         # TypeScript configuration
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## 🧞 Running the Project
 
-## 🧞 Commands
+### Local Development
 
-All commands are run from the root of the project, from a terminal:
+```bash
+# Install dependencies
+npm install
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+# Start the development server
+npm run dev
 
-## 👀 Want to learn more?
+# Build for production
+npm run build
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+# Preview the production build
+npm run preview
+```
+
+Your site will be available at `http://localhost:4321` in development mode.
+
+### Docker Deployment
+
+The project includes Docker configuration for easy deployment:
+
+```bash
+# Build and start the Docker container
+docker compose up -d
+
+# Stop the container
+docker compose down
+```
+
+When running with Docker, the site will be available at `http://localhost:80`.
+
+## 🛠️ Technologies Used
+
+- [Astro](https://astro.build/) - Web framework
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [DaisyUI](https://daisyui.com/) - UI component library
+- [Preact](https://preactjs.com/) - UI library
+- [Docker](https://www.docker.com/) - Containerization
+
+## 👩‍💻 Development
+
+To add or modify tools, edit the `tools.json` file. Each tool entry includes:
+- Name
+- Categories (for filtering)
+- Description
+- Link to the tool's official page
+
+The UI will automatically update to reflect any changes to the data.
