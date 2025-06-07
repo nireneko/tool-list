@@ -492,6 +492,30 @@
     "link": "https://www.mkdocs.org/"
   },
   {
+    "name": "BookStack",
+    "categories": ["Documentation tools"],
+    "description": "BookStack es una plataforma de documentación de código abierto diseñada para organizar y almacenar información en formato de libros, capítulos y páginas.",
+    "link": "https://www.bookstackapp.com/"
+  },
+  {
+    "name": "MediaWiki",
+    "categories": ["Documentation tools"],
+    "description": "MediaWiki es un software de wiki libre y de código abierto, utilizado por Wikipedia y otros proyectos para la creación colaborativa de documentación.",
+    "link": "https://www.mediawiki.org/"
+  },
+  {
+    "name": "CodiMD",
+    "categories": ["Documentation tools"],
+    "description": "CodiMD es una plataforma de edición colaborativa de notas en Markdown, ideal para documentación en tiempo real y trabajo en equipo.",
+    "link": "https://codimd.org/"
+  },
+  {
+    "name": "DocuWiki",
+    "categories": ["Documentation tools"],
+    "description": "DokuWiki es un software de wiki simple y versátil, orientado a la creación de documentación y notas, sin necesidad de base de datos.",
+    "link": "https://www.dokuwiki.org/"
+  },
+  {
     "name": "Slack",
     "categories": ["Chat/Meeting"],
     "description": "Slack is a business communication platform offering many IRC-style features, including persistent chat rooms, private groups, and direct messaging.",
