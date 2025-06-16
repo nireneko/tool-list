@@ -688,5 +688,11 @@
     "categories": ["SO"],
     "description": "Manjaro is a user-friendly Linux distribution based on the independently developed Arch operating system.",
     "link": "https://manjaro.org/"
+  },
+  {
+    "name": "Discourse",
+    "categories": ["External managers", "Community platforms"],
+    "description": "Discourse is an open-source discussion platform built for community conversations, Q&A, and knowledge sharing. It features modern interfaces, notifications, and moderation tools.",
+    "link": "https://www.discourse.org/"
   }
 ]
