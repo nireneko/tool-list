@@ -739,7 +739,7 @@
   },
   {
     "name": "N8N",
-    "categories": ["Selfhosting", "Automation"],
+    "categories": ["Selfhosting", "Automation", "AI", "Workflow"],
     "description": "N8N is an open-source workflow automation tool that allows you to automate tasks and connect different services using a visual interface.",
     "link": "https://n8n.io/"
   },
