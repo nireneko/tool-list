@@ -760,5 +760,11 @@
     "categories": ["Testing tools", "Performance testing"],
     "description": "K6 is an open-source load testing tool for testing the performance of APIs, microservices, and websites. It allows developers to write tests in JavaScript and provides a powerful CLI for running tests and analyzing results.",
     "link": "https://k6.io/"
+  },
+  {
+    "name": "Valkey",
+    "categories": ["Database", "NoSQL"],
+    "description": "Valkey es un servidor de datos en memoria, de código abierto y compatible con Redis, enfocado en alto rendimiento para caché, colas y estructuras de datos.",
+    "link": "https://valkey.io/"
   }
 ]
