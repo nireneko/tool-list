@@ -1,6 +1,4 @@
 ---
-import { toolColors } from "../utils/colorUtils";
-
 export interface Props {
   tool: {
     name: string;
@@ -13,35 +11,49 @@ export interface Props {
 }
 
 const { tool, index, categoryColorMap } = Astro.props;
-const colorIndex = index % toolColors.length;
-const toolColor = toolColors[colorIndex];
 ---
 
 <div
-  class={`tooltip tool-card p-4 rounded-lg shadow-md border-l-4 ${toolColor}`}
+  class="tool-card card bg-base-100 shadow-xl border border-base-content/5 hover:border-primary/20 hover:shadow-2xl transition-all duration-300 group"
   data-categories={JSON.stringify(tool.categories)}
+  data-name={tool.name.toLowerCase()}
+  data-description={tool.description.toLowerCase()}
 >
-  <h3 class="text-lg font-medium">{tool.name}</h3>
-  <div class="tooltip-content">
-    {tool.description}
-  </div>
-  <a
-    href={tool.link}
-    target="_blank"
-    rel="noopener noreferrer"
-    class="text-blue-500 hover:underline">Oficial page</a
-  >
-  <div class="mt-2 flex flex-wrap gap-1">
-    {
-      tool.categories.map((category) => {
-        const catColorClass =
-          categoryColorMap[category] || "bg-gray-300 text-black";
-        return (
-          <span class={`text-xs px-2 py-1 rounded ${catColorClass}`}>
-            {category}
-          </span>
-        );
-      })
-    }
+  <div class="card-body p-6 gap-4">
+    <div class="flex justify-between items-start">
+      <h3 class="card-title text-xl font-bold group-hover:text-primary transition-colors">
+        {tool.name}
+      </h3>
+      <a
+        href={tool.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-ghost btn-circle btn-sm -mr-2"
+        aria-label={`Visit ${tool.name}`}
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5 opacity-40 group-hover:opacity-100 transition-opacity">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+        </svg>
+      </a>
+    </div>
+
+    <p class="text-base-content/70 text-sm leading-relaxed line-clamp-3">
+      {tool.description}
+    </p>
+
+    <div class="card-actions justify-end mt-auto pt-2">
+      <div class="flex flex-wrap gap-1.5">
+        {
+          tool.categories.map((category) => {
+            const badgeClass = categoryColorMap[category] || "badge-ghost";
+            return (
+              <div class={`badge badge-sm font-medium ${badgeClass} border-none py-2 px-3`}>
+                {category}
+              </div>
+            );
+          })
+        }
+      </div>
+    </div>
   </div>
 </div>

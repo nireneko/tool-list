@@ -18,18 +18,59 @@ const categories = Array.from(allCategories).sort();
 const categoryColorMap = createCategoryColorMap(categories);
 ---
 
-<Layout>
+<Layout pageTitle="DevTool Catalog - Find the best tools for your team">
   <Header />
-  <main class="container mx-auto px-4 py-8">
-    <h1 class="text-3xl font-bold text-center mb-10">
-      Development/Team tools
-    </h1>
+  
+  <main class="container mx-auto px-4 py-12 max-w-7xl">
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-12">
+      <div class="flex-1">
+        <h1 class="text-4xl md:text-5xl font-black tracking-tight mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+          DevTool Catalog
+        </h1>
+        <p class="text-base-content/60 text-lg max-w-xl">
+          A curated list of essential tools for modern software development teams. Filter by category or search by name.
+        </p>
+      </div>
+      
+      <div class="w-full md:w-80">
+        <div class="form-control">
+          <label class="label">
+            <span class="label-text font-bold">Search tools</span>
+          </label>
+          <div class="relative">
+            <input 
+              type="text" 
+              id="tool-search" 
+              placeholder="e.g. React, Docker..." 
+              class="input input-bordered w-full pr-10 rounded-xl focus:input-primary transition-all shadow-sm"
+            />
+            <button id="clear-search" class="absolute right-3 top-3 text-base-content/30 hover:text-base-content hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider opacity-5"></div>
 
     <CategoryFilters 
       categories={categories} 
       categoryColorMap={categoryColorMap} 
     />
     
+    <div id="no-results" class="hidden py-20 text-center">
+      <div class="inline-flex items-center justify-center w-20 h-20 rounded-full bg-base-200 mb-6">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 opacity-20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+      </div>
+      <h3 class="text-2xl font-bold mb-2">No tools found</h3>
+      <p class="text-base-content/50">Try adjusting your search or category filters.</p>
+    </div>
+
     <ToolsGrid 
       tools={toolsData} 
       categoryColorMap={categoryColorMap} 

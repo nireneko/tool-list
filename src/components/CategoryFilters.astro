@@ -7,21 +7,22 @@ export interface Props {
 const { categories, categoryColorMap } = Astro.props;
 ---
 
-<div class="mb-8">
-  <h2 class="text-xl font-semibold mb-4">Category filter:</h2>
-  <div class="flex flex-wrap gap-2" id="category-filters">
+<div class="mb-10">
+  <h2 class="text-sm font-bold uppercase tracking-wider text-base-content/60 mb-4 ml-1">
+    Browse by Category
+  </h2>
+  <div class="flex flex-wrap gap-3" id="category-filters">
     <button
-      class="category-filter bg-blue-500 text-white px-3 py-1 rounded-md filter-active"
+      class="category-filter btn btn-primary btn-sm rounded-full filter-active"
       data-category="all"
     >
-      All
+      All Tools
     </button>
     {
       categories.map((category) => {
-        const colorClass = categoryColorMap[category];
         return (
           <button
-            class={`category-filter px-3 py-1 rounded-md hover:opacity-90 ${colorClass}`}
+            class="category-filter btn btn-outline btn-sm rounded-full hover:btn-primary border-base-content/10"
             data-category={category}
           >
             {category}

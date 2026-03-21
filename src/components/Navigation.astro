@@ -2,12 +2,15 @@
 import ThemeIcon from './ThemeIcon.astro'
 ---
 
-<div class="navbar bg-base-100 shadow-sm fixed-top">
-    <div class="navbar-start">
-    </div>
-    <div class="navbar-center hidden lg:flex">
-    </div>
-    <div class="navbar-end">
-        <ThemeIcon />
+<div class="navbar bg-base-100 shadow-md sticky top-0 z-50">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+        <div class="flex-1">
+            <a class="text-xl font-bold tracking-tight text-primary hover:opacity-80 transition-opacity" href="/">
+                DevTool Catalog
+            </a>
+        </div>
+        <div class="flex-none">
+            <ThemeIcon />
+        </div>
     </div>
 </div>

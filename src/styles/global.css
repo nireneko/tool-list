@@ -3,6 +3,16 @@
     themes: light --default, dark --prefersdark, forest, retro;
 }
 
+@layer base {
+    html {
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+    
+    body {
+        @apply bg-base-100 text-base-content min-h-screen transition-colors duration-300;
+    }
+}
+
 .filter-active {
-    @apply ring-2 ring-white ring-offset-2;
+    @apply ring-2 ring-primary ring-offset-2;
 }
